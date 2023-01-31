@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .headerListStyle{
+     @apply   flex flex-col max-lg:justify-center my-auto;
+    }
+    .headerListP{
+     @apply   text-[#666666] text-xs max-lg:hidden mx-auto;
+    }
+}
